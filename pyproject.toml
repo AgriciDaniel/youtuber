@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-brain"
+version = "0.1.0"
+description = "YouTube Brain Obsidian brain template and script layer."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+authors = [{name = "Daniel Agrici"}]
+dependencies = []
+
+[project.scripts]
+youtube-brain = "youtube_brain.cli:main"
+
+[tool.setuptools]
+packages = ["youtube_brain"]

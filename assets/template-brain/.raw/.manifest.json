@@ -1,0 +1,5 @@
+{
+  "brain_schema": "youtube-brain.v1",
+  "sources": [],
+  "notes": "Template manifest. Client vaults append immutable source entries here."
+}

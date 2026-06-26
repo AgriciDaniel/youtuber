@@ -1,0 +1,18 @@
+{
+  "scaffold_history": [
+    {
+      "client": "sample-vault",
+      "client_name": "Sample Client",
+      "owner": "Sample Owner",
+      "created": "2026-06-26"
+    }
+  ],
+  "sources": [
+    {
+      "path": ".raw/sources/sample-source.md",
+      "sha256": "1446f2c7a2fe70c4f10f86ae8a6ecbd130752189762068cf22cf8e4b5ebb6a3f",
+      "retrieved": "2026-06-26",
+      "source_type": "fixture"
+    }
+  ]
+}
