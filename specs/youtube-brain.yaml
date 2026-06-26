@@ -1,0 +1,56 @@
+# Brain specification v2
+spec_version: 2
+slug: "youtube-brain"
+title: "YouTube Brain"
+domain: "YouTube end to end across three pillars: creator growth and strategy (recommendation and discovery, retention and average view duration, packaging, Shorts, cadence, monetization, policy, analytics, community), the developer API (Data, Analytics, Reporting, and Live Streaming APIs, quotas, OAuth), and paid advertising (Google Ads formats, Demand Gen, bidding, targeting, measurement, connected TV)."
+buyer: "YouTube creators, channel managers, editors, and content strategists who need repeatable, source-cited decisions on what to make, how to package it, and how to grow and monetize a channel."
+owner: "Daniel Agrici"
+repo_url: "https://github.com/AgriciDaniel/youtuber"
+license_name: "Apache-2.0"
+research_refresh_cadence: "monthly for YouTube Creators and Help Center guides plus YouTube Studio analytics references; on-changelog for recommendation and monetization policy changes; quarterly for practitioner benchmarks (vidIQ, TubeBuddy)"
+workflows:
+  - "Source intake and provenance capture from research and channel exports"
+  - "Channel health audit against growth, retention, click-through, and monetization metrics"
+  - "Content, packaging, and cadence synthesis into prioritized recommendations"
+  - "Approval queue for A/B tests on titles, thumbnails, and formats"
+  - "Weekly channel report and next-action review"
+raw_sources:
+  - "YouTube Studio analytics exports and CSVs, video metadata lists, transcripts, thumbnails, competitor channel snapshots, deep-research reports, and dated operator notes on platform changes"
+enrichment_sources:
+  - "Official YouTube Creators and Help Center guides on growth, retention, and policy"
+  - "YouTube Studio analytics metric reference (watch time, AVD, CTR, traffic sources)"
+  - "YouTube Official Blog and Creator Insider announcements on the recommendation system"
+  - "YouTube Partner Program and monetization policy documentation"
+  - "Practitioner analytics methodology and benchmarks (vidIQ, TubeBuddy) and published creator case studies"
+deliverables:
+  - "Channel health scorecard (growth rate, AVD, CTR, RPM)"
+  - "Content performance analysis (top and bottom decile by watch time, CTR, subscriber attraction)"
+  - "Packaging audit (titles, thumbnails, click-through rate)"
+  - "Monetization audit (RPM opportunity, YouTube Partner Program gaps)"
+  - "Monthly optimization roadmap (A/B test plan and publishing cadence)"
+refusal_rules:
+  - "No growth, revenue, or monetization claim without a current official or primary source"
+  - "No credentials, OAuth tokens, cookies, earnings, or private audience data in repo artifacts"
+  - "No sub4sub, bot engagement, engagement bait, or platform-policy-violating tactics"
+  - "No account mutation or upload automation without explicit owner approval and an audit trail"
+  - "No irreversible recommendation without owner, confidence, source, and rollback note"
+safety_risks:
+  - "Private channel analytics, audience, revenue, or comment data in raw inputs"
+  - "Stale recommendation or monetization policy leading to wrong advice"
+  - "Overconfident growth projections from incomplete or short channel history"
+  - "Rapid platform policy shifts (demonetization rules, harmful content definitions)"
+  - "Generated reports leaking local filesystem paths or third-party tool API drift"
+playbook_steps:
+  - "Capture official YouTube growth, retention, and monetization guidance with retrieval dates"
+  - "Adapt Studio analytics export parsers to the channel's current export schema"
+  - "Synthesize a channel health scorecard with a sourced growth and revenue baseline"
+  - "Queue packaging A/B tests and verify a deterministic demo with a sample export"
+  - "Run the market-ready audit before releasing the first optimization roadmap"
+audit_focus:
+  - "Source-ledger freshness for recommendation and monetization policy dates"
+  - "Adapter-manifest path resolution for Studio export importers and report renderers"
+  - "Deliverable citation coverage in analytics reports and recommendations"
+next_action_signals:
+  - "Stale refresh_due on YouTube policy or analytics docs (past the due date)"
+  - "Missing importer for a new Studio export format"
+  - "Uncited growth or revenue claim in a content recommendation"

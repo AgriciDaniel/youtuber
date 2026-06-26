@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AgriciDaniel/youtuber/schemas/youtube-export-schema.json",
+  "title": "YouTube Studio video-level export",
+  "description": "Sanitized video-level export used by the YouTube Brain importers. No credentials, tokens, or private audience data.",
+  "type": "object",
+  "required": ["channel", "videos"],
+  "properties": {
+    "channel": {
+      "type": "string",
+      "description": "Display name only; never an OAuth token or channel secret."
+    },
+    "exported": {
+      "type": "string",
+      "description": "ISO date the export was produced (YYYY-MM-DD)."
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["video_id", "title", "length_seconds", "impressions", "views"],
+        "properties": {
+          "video_id": {"type": "string"},
+          "title": {"type": "string"},
+          "published": {"type": "string"},
+          "format": {"type": "string", "enum": ["long", "short"]},
+          "length_seconds": {"type": "number", "minimum": 0},
+          "impressions": {"type": "number", "minimum": 0},
+          "impressions_ctr": {"type": "number", "minimum": 0, "maximum": 1},
+          "views": {"type": "number", "minimum": 0},
+          "average_view_duration_seconds": {"type": "number", "minimum": 0},
+          "watch_time_hours": {"type": "number", "minimum": 0},
+          "subscribers_gained": {"type": "integer"},
+          "estimated_revenue_usd": {"type": "number", "minimum": 0}
+        }
+      }
+    }
+  }
+}

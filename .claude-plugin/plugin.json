@@ -1,0 +1,27 @@
+{
+  "name": "youtube-brain",
+  "version": "0.1.0",
+  "description": "Source-cited Obsidian brain for YouTube end to end: creator growth and strategy (recommendation, retention, packaging, Shorts, monetization, policy, analytics, community), the developer API (Data, Analytics, Reporting, Live Streaming), and paid advertising (Google Ads formats, Demand Gen, bidding, targeting, connected TV).",
+  "author": {
+    "name": "Daniel Agrici",
+    "url": "https://github.com/AgriciDaniel"
+  },
+  "homepage": "https://agricidaniel.github.io/youtuber",
+  "repository": "https://github.com/AgriciDaniel/youtuber",
+  "license": "Apache-2.0",
+  "keywords": [
+    "youtube-brain",
+    "obsidian",
+    "brain",
+    "youtube"
+  ],
+  "skills": [
+    "./SKILL.md"
+  ],
+  "allowed-tools": [
+    "Read",
+    "Grep",
+    "Glob",
+    "Bash"
+  ]
+}

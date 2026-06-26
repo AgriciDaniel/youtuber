@@ -1,0 +1,34 @@
+{
+  "name": "agricidaniel-youtube-brain",
+  "owner": {
+    "name": "Daniel Agrici"
+  },
+  "metadata": {
+    "description": "YouTube Brain template and skill layer",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "youtube-brain",
+      "source": "./",
+      "description": "Source-cited Obsidian brain for YouTube across three pillars: creator growth and strategy (recommendation, retention, packaging, Shorts, monetization, analytics, community), the developer API (Data, Analytics, Reporting, Live Streaming), and paid advertising (Google Ads, Demand Gen, bidding, targeting, brand suitability).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Agrici"
+      },
+      "repository": "https://github.com/AgriciDaniel/youtuber",
+      "license": "Apache-2.0",
+      "category": "youtube",
+      "tags": [
+        "obsidian",
+        "brain",
+        "youtube"
+      ],
+      "keywords": [
+        "youtube-brain",
+        "youtube",
+        "obsidian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "brainstein.adapter-manifest.v1",
+  "version": 1,
+  "status": "domain-adapted",
+  "domain": "YouTube creator growth and strategy: recommendation and discovery, retention and average view duration, packaging, Shorts, monetization, analytics, cadence, and community",
+  "generic_only": false,
+  "raw_input_types": [
+    "YouTube Studio video-level analytics export (JSON)",
+    "Operator notes and deep-research reports filed to .raw/"
+  ],
+  "input_schemas": [
+    {"path": "schemas/youtube-export-schema.json", "description": "Sanitized YouTube Studio video-level export (no credentials or private audience data)"}
+  ],
+  "importers": [
+    {"path": "scripts/import_youtube_export.py", "input": "youtube-studio-export-json", "description": "Validate and normalize an export, deriving average percentage viewed and RPM"}
+  ],
+  "synthesis_modules": [
+    {"path": "scripts/synthesize_channel_health.py", "produces": "youtube.channel-health-v1", "description": "Aggregate views, watch hours, CTR, APV, blended RPM, and sourced flags"},
+    {"path": "scripts/synthesize_packaging_audit.py", "produces": "youtube.packaging-audit-v1", "description": "Flag long-form videos with reach but below-median CTR as A/B test candidates"}
+  ],
+  "report_renderers": [
+    {"path": "scripts/render_channel_report.py", "format": "markdown", "produces": "channel-health-scorecard", "description": "Render a sourced markdown scorecard with concept wikilinks and a rollback note"}
+  ],
+  "fixtures": [
+    {"path": "tests/fixtures/sample-youtube-export.json", "description": "Sanitized 5-video sample export (fake IDs, no PII or real earnings)"},
+    {"path": "tests/fixtures/sample-source.md", "description": "Sample raw research source for the generic ingestion pipeline"}
+  ],
+  "tests": [
+    {"path": "tests/test_adapters.py", "description": "Importer, synthesis, renderer determinism, and malformed-input tests"},
+    {"path": "tests/test_pipeline.py", "description": "End-to-end scaffold, ingest, synthesize, render, demo, package, and install tests"}
+  ],
+  "core_module": "youtube_brain/adapters.py"
+}

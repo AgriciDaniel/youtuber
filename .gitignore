@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+.env
+.env.*
+!.env.example
+.raw/secrets/
+*.secret
+
+# KDE folder metadata
+.directory
+
+# Obsidian workspace settings (per-machine, not part of the brain)
+.obsidian/
+
+# Quartz site build artifacts (the published site is built by CI from wiki/)
+site/node_modules/
+site/public/
+site/.quartz-cache/
+site/tsconfig.tsbuildinfo

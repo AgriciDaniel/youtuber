@@ -1,0 +1,76 @@
+{
+  "channel": "Sample Creator",
+  "exported": "2026-06-23",
+  "videos": [
+    {
+      "video_id": "sample-001",
+      "title": "How the YouTube Algorithm Actually Works",
+      "published": "2026-05-04",
+      "format": "long",
+      "length_seconds": 612,
+      "impressions": 48000,
+      "impressions_ctr": 0.071,
+      "views": 9200,
+      "average_view_duration_seconds": 318,
+      "watch_time_hours": 812.6,
+      "subscribers_gained": 240,
+      "estimated_revenue_usd": 58.4
+    },
+    {
+      "video_id": "sample-002",
+      "title": "I Tried 30 Thumbnails in 30 Days",
+      "published": "2026-05-11",
+      "format": "long",
+      "length_seconds": 904,
+      "impressions": 120000,
+      "impressions_ctr": 0.031,
+      "views": 11600,
+      "average_view_duration_seconds": 402,
+      "watch_time_hours": 1295.6,
+      "subscribers_gained": 180,
+      "estimated_revenue_usd": 121.0
+    },
+    {
+      "video_id": "sample-003",
+      "title": "Retention Secrets From 1000 Videos",
+      "published": "2026-05-18",
+      "format": "long",
+      "length_seconds": 421,
+      "impressions": 22000,
+      "impressions_ctr": 0.052,
+      "views": 4100,
+      "average_view_duration_seconds": 168,
+      "watch_time_hours": 191.3,
+      "subscribers_gained": 64,
+      "estimated_revenue_usd": 17.9
+    },
+    {
+      "video_id": "sample-004",
+      "title": "Quick Tip: Hook in 5 Seconds",
+      "published": "2026-05-21",
+      "format": "short",
+      "length_seconds": 48,
+      "impressions": 0,
+      "impressions_ctr": 0.0,
+      "views": 86000,
+      "average_view_duration_seconds": 33,
+      "watch_time_hours": 788.3,
+      "subscribers_gained": 410,
+      "estimated_revenue_usd": 4.6
+    },
+    {
+      "video_id": "sample-005",
+      "title": "Monetization Explained for 2026",
+      "published": "2026-05-28",
+      "format": "long",
+      "length_seconds": 1180,
+      "impressions": 64000,
+      "impressions_ctr": 0.044,
+      "views": 8800,
+      "average_view_duration_seconds": 540,
+      "watch_time_hours": 1320.0,
+      "subscribers_gained": 152,
+      "estimated_revenue_usd": 142.5
+    }
+  ]
+}

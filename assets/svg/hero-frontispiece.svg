@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">YouTube Brain</title>
+  <desc id="desc">A source-cited operating brain for YouTube creator growth, the developer API, and advertising.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c0606"/>
+      <stop offset="0.45" stop-color="#0f0f0f"/>
+      <stop offset="1" stop-color="#0f0f0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="6" fill="#ff0000"/>
+  <rect y="414" width="1200" height="6" fill="#ff0000"/>
+
+  <!-- YouTube play-button mark -->
+  <g transform="translate(80,128)">
+    <rect width="232" height="164" rx="44" fill="#ff0000"/>
+    <path d="M92 49 L92 115 L154 82 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Wordmark + tagline -->
+  <text x="372" y="168" font-family="Roboto, Arial, sans-serif" font-size="82" font-weight="800" fill="#ffffff">YouTube Brain</text>
+  <text x="375" y="214" font-family="Roboto, Arial, sans-serif" font-size="27" fill="#d6d6d6">Every claim traced to a dated, official source.</text>
+
+  <!-- Pillar pills -->
+  <g font-family="Roboto, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="375" y="244" width="210" height="50" rx="25" fill="#1f1f1f" stroke="#ff0000" stroke-width="2"/>
+    <text x="480" y="276" text-anchor="middle" fill="#ffffff">Creator Growth</text>
+    <rect x="601" y="244" width="196" height="50" rx="25" fill="#1f1f1f" stroke="#ff0000" stroke-width="2"/>
+    <text x="699" y="276" text-anchor="middle" fill="#ffffff">Developer API</text>
+    <rect x="813" y="244" width="168" height="50" rx="25" fill="#1f1f1f" stroke="#ff0000" stroke-width="2"/>
+    <text x="897" y="276" text-anchor="middle" fill="#ffffff">Advertising</text>
+  </g>
+
+  <text x="375" y="356" font-family="Roboto, Arial, sans-serif" font-size="24" font-weight="700" fill="#ff4e45">agricidaniel.github.io/youtuber</text>
+</svg>

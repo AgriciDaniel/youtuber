@@ -1,0 +1,1985 @@
+{
+  "schema": "brainstein.source-ledger.v1",
+  "version": 1,
+  "status": "market-ready",
+  "domain": "YouTube creator growth and strategy, the developer API (Data, Analytics, Reporting, Live Streaming), and paid advertising (Google Ads)",
+  "generated_at": "2026-06-23",
+  "refresh_cadence": "monthly for YouTube Help Center and Studio analytics pages; on-changelog for recommendation and monetization policy; quarterly for practitioner benchmarks",
+  "provenance": "Six official-source-biased deep-research passes on 2026-06-23 (WebSearch + WebFetch). Full citation pack in wiki/sources/research-pack-2026-06-23.md; raw capture in .raw/research/youtube-deep-research-2026-06-23.md.",
+  "rules": {
+    "researched_requires": [
+      "at least two official or primary sources for this fast-moving domain",
+      "retrieved and refresh_due dates, source_type, confidence, and claim coverage on every entry",
+      "no placeholder or example URLs"
+    ],
+    "accepted_primary_types": [
+      "official",
+      "primary",
+      "vendor",
+      "regulator",
+      "government",
+      "standards",
+      "authority",
+      "api-docs"
+    ]
+  },
+  "sources": [
+    {
+      "id": "yt-recommendations-how",
+      "title": "How YouTube recommendations work",
+      "url": "https://support.google.com/youtube/answer/16089387",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The recommendation system processes over 80 billion signals.",
+        "Eight named personalization signals: watch history, search history, subscriptions, likes, dislikes, not interested, don't recommend channel, and satisfaction surveys.",
+        "Recommendations surface on the homepage, Up Next, the Shorts feed, destination pages, and channel pages."
+      ]
+    },
+    {
+      "id": "yt-recommendation-system",
+      "title": "YouTube's Recommendation System",
+      "url": "https://support.google.com/youtube/answer/16533387",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The system has two objectives: help viewers find content they want and maximize long-term satisfaction.",
+        "It operates as automated word-of-mouth, learning that viewers of one video also watch another."
+      ]
+    },
+    {
+      "id": "yt-how-search-works",
+      "title": "How YouTube search works",
+      "url": "https://support.google.com/youtube/answer/16090438",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Search ranks on three pillars: relevance, engagement, and quality.",
+        "Engagement for search is the watch time of a video for a particular query.",
+        "YouTube does not accept payment for better organic search placement."
+      ]
+    },
+    {
+      "id": "yt-search-discovery-tips",
+      "title": "Search and discovery tips",
+      "url": "https://support.google.com/youtube/answer/11914225",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The system uses average view duration and average percentage viewed as retention signals.",
+        "Core guidance: focus on what your audience likes and the recommendations will follow."
+      ]
+    },
+    {
+      "id": "yt-howyoutubeworks-recommendations",
+      "title": "Algorithm-Based Recommendations on YouTube",
+      "url": "https://www.youtube.com/intl/ALL_en/howyoutubeworks/product-features/recommendations/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "The homepage and the Up Next panel are the two main recommendation surfaces.",
+        "Authoritative content is elevated for news, finance, and health topics."
+      ]
+    },
+    {
+      "id": "yt-recommendation-blog-goodrow",
+      "title": "On YouTube's recommendation system",
+      "url": "https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/",
+      "source_type": "primary",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "Watch time was introduced as a signal in 2012.",
+        "YouTube measures valued watchtime using 1-5 star surveys where only 4-5 star ratings count.",
+        "The goal is to keep recommended borderline content below 0.5% of overall views."
+      ]
+    },
+    {
+      "id": "sej-recommendation-2025-beaupre",
+      "title": "How YouTube's Recommendation System Works In 2025",
+      "url": "https://www.searchenginejournal.com/how-youtubes-recommendation-system-works-in-2025/538379/",
+      "source_type": "primary",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "YouTube's Todd Beaupre describes recommendation as pulling content toward each viewer, not pushing it out.",
+        "The system weights watch time by satisfaction signals like surveys, returns, and session continuation."
+      ]
+    },
+    {
+      "id": "yt-shorts-views-change",
+      "title": "A Change to How We Count Views on Shorts",
+      "url": "https://support.google.com/youtube/thread/333869549/a-change-to-how-we-count-views-on-shorts",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "From 2025-03-31 a Shorts view counts every time a Short starts to play or replay, with no minimum watch time.",
+        "The previous sustained-watch metric is renamed engaged views and still governs YPP eligibility and Shorts revenue sharing."
+      ]
+    },
+    {
+      "id": "google-made-on-youtube-2024",
+      "title": "9 new features we announced at Made on YouTube 2024",
+      "url": "https://blog.google/products/youtube/made-on-youtube-2024/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "Hype was introduced to help small-to-medium creators get discovered.",
+        "The Studio Inspiration Tab gives AI-generated ideas, titles, thumbnails, and outlines."
+      ]
+    },
+    {
+      "id": "yt-hype-global",
+      "title": "Hype goes global",
+      "url": "https://blog.youtube/news-and-events/hype-global-expansion/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Hype expanded to 39 countries in August 2025.",
+        "Eligibility is creators with under 500,000 subscribers; viewers hype up to three videos per week.",
+        "Smaller channels receive proportionally larger boosts."
+      ]
+    },
+    {
+      "id": "yt-hype-leaderboard",
+      "title": "Leaderboard for hyped videos on YouTube",
+      "url": "https://support.google.com/youtube/answer/15334500",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The leaderboard shows up to 50 top hyped videos, filterable by topic.",
+        "The fewer the subscribers, the bigger the bonus; the page states the directional rule but not specific point values."
+      ]
+    },
+    {
+      "id": "yt-key-moments-retention",
+      "title": "Measure key moments for audience retention",
+      "url": "https://support.google.com/youtube/answer/9314415",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Four key moment types: Intro, Top moments, Spikes, and Dips.",
+        "The Intro metric measures the percentage of viewers still watching after the first 30 seconds.",
+        "Key moments require a video at least 60 seconds long with at least 100 views."
+      ]
+    },
+    {
+      "id": "yt-content-tab-tips",
+      "title": "Content tab analytics tips",
+      "url": "https://support.google.com/youtube/answer/12942217",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "A typical intro is about 30 seconds; strong videos keep 50% or more of the audience past the 30-second mark.",
+        "The performance funnel is Appeal (CTR), Engagement (Views), and Satisfaction (average view duration)."
+      ]
+    },
+    {
+      "id": "yt-engagement-report",
+      "title": "Understand audience engagement",
+      "url": "https://support.google.com/youtube/answer/9313698",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Average view duration is the average minutes watched among those who stayed to watch.",
+        "For Shorts, average view duration is calculated from engaged views."
+      ]
+    },
+    {
+      "id": "yt-shorts-viewed-vs-swiped",
+      "title": "New YouTube Shorts Metric: Viewed vs Swiped Away",
+      "url": "https://support.google.com/youtube/community-video/273390203/new-youtube-shorts-metric-viewed-vs-swiped-away",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "The Viewed vs swiped away metric reports the percentage of times viewers watched a Short versus swiped past it in the feed."
+      ]
+    },
+    {
+      "id": "vidiq-avd",
+      "title": "Understanding YouTube Average View Duration",
+      "url": "https://vidiq.com/blog/post/average-view-duration/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "medium",
+      "claims": [
+        "AVD equals total watch time divided by views; APV equals AVD divided by video length times 100.",
+        "An APV of 50-60% is good, 60-70% very good, and 70%+ excellent."
+      ]
+    },
+    {
+      "id": "retentionrabbit-benchmark-2025",
+      "title": "Beyond Views: The 2025 State of YouTube Audience Retention",
+      "url": "https://www.retentionrabbit.com/blog/2025-youtube-audience-retention-benchmark-report",
+      "source_type": "market",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "medium",
+      "claims": [
+        "Across 10,000+ videos average retention is 23.7%.",
+        "55%+ of viewers are lost within the first 60 seconds, and only 16.8% of videos exceed 50% retention."
+      ]
+    },
+    {
+      "id": "yt-impressions-ctr-faq",
+      "title": "Impressions and click-through-rate FAQs",
+      "url": "https://support.google.com/youtube/answer/7628154",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Half of all channels and videos have an impressions CTR between 2% and 10%.",
+        "Impressions CTR measures how often viewers watched a video after seeing a registered impression."
+      ]
+    },
+    {
+      "id": "yt-decoding-ctr",
+      "title": "Decoding CTR and impressions in your Analytics",
+      "url": "https://support.google.com/youtube/answer/16767369",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "A CTR decline from 9% to 3.5% across 90,000 added impressions is a sign of success.",
+        "Search yields fewer impressions but higher CTR; the homepage yields high impressions but lower CTR."
+      ]
+    },
+    {
+      "id": "yt-ab-test-titles-thumbnails",
+      "title": "A/B test titles and thumbnails (Test and compare)",
+      "url": "https://support.google.com/youtube/answer/13861714",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Creators test up to 3 titles, thumbnails, or combinations.",
+        "The winner is the option with the highest watch-time share, not the highest CTR.",
+        "Outcomes are Winner, Performed the same, or Inconclusive, and YouTube may keep a small control group."
+      ]
+    },
+    {
+      "id": "yt-thumbnail-title-tips",
+      "title": "Thumbnail and title tips",
+      "url": "https://support.google.com/youtube/answer/12340300",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "90% of the best-performing videos have custom thumbnails.",
+        "Front-load important words in titles and use the rule of thirds for thumbnails."
+      ]
+    },
+    {
+      "id": "yt-clickbait-policy",
+      "title": "Spam, deceptive practices and scams policies",
+      "url": "https://support.google.com/youtube/answer/2801973",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Maliciously misleading titles, thumbnails, or descriptions are prohibited.",
+        "Violations risk removal, strikes, and monetization suspension."
+      ]
+    },
+    {
+      "id": "yt-studio-made-on-youtube-2025",
+      "title": "New in YouTube Studio (Made On YouTube 2025)",
+      "url": "https://blog.youtube/news-and-events/youtube-studio-made-on-youtube-2025/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Thumbnail A/B testing has been used over 15 million times since it launched in 2023.",
+        "Title testing was added so creators can test up to three titles and thumbnails per video."
+      ]
+    },
+    {
+      "id": "sej-title-ab-global",
+      "title": "YouTube Title A/B Testing Rolls Out Globally To Creators",
+      "url": "https://www.searchenginejournal.com/youtube-title-a-b-testing-rolls-out-globally-to-creators/562571/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "medium",
+      "claims": [
+        "Title A/B testing expanded to all eligible creators around 2025-12-04.",
+        "Variations are shown for up to two weeks, then YouTube applies the highest-watch-time option."
+      ]
+    },
+    {
+      "id": "yt-shorts-monetization-policies",
+      "title": "YouTube Shorts monetization policies",
+      "url": "https://support.google.com/youtube/answer/12504220",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Creators keep 45% of revenue allocated to them from the Shorts Creator Pool.",
+        "Music reduces a Short's pool contribution: no music sends 100% to the pool, one track 50%, two tracks roughly one-third."
+      ]
+    },
+    {
+      "id": "yt-partner-earnings",
+      "title": "YouTube partner earnings overview",
+      "url": "https://support.google.com/youtube/answer/72902",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Watch Page ads pay creators 55% of net revenue; Shorts Feed ads pay 45%.",
+        "Fan funding (memberships, Super Chat, Super Stickers, Super Thanks) pays creators 70%."
+      ]
+    },
+    {
+      "id": "yt-ypp-eligibility",
+      "title": "YouTube Partner Program overview and eligibility",
+      "url": "https://support.google.com/youtube/answer/72851",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Full monetization requires 1,000 subscribers plus 4,000 valid public watch hours in 12 months or 10 million valid public Shorts views in 90 days.",
+        "Valid public watch hours exclude private, unlisted, deleted videos, ad campaigns, and Shorts."
+      ]
+    },
+    {
+      "id": "yt-expanded-ypp",
+      "title": "Overview of the expanded YouTube Partner Program",
+      "url": "https://support.google.com/youtube/answer/13429240",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The lower fan-funding tier requires 500 subscribers, 3 valid public uploads in 90 days, and 3,000 watch hours in 12 months or 3 million Shorts views in 90 days.",
+        "This tier unlocks memberships, Super Chat, Super Thanks, gifts, and Shopping before full ad monetization."
+      ]
+    },
+    {
+      "id": "yt-three-minute-shorts",
+      "title": "Understand three-minute YouTube Shorts",
+      "url": "https://support.google.com/youtube/answer/15424877",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Standard channels can upload Shorts up to 3 minutes for uploads on or after 2024-10-15.",
+        "Most songs are usable for up to 90 seconds in a 3-minute Short."
+      ]
+    },
+    {
+      "id": "techcrunch-shorts-views",
+      "title": "YouTube is changing how YouTube Shorts views are counted",
+      "url": "https://techcrunch.com/2025/03/26/youtube-is-changing-how-youtube-shorts-views-are-counted/",
+      "source_type": "primary",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "Effective 2025-03-31, a Shorts view counts each time the Short starts to play or replay.",
+        "The old metric is renamed engaged views and still governs earnings and YPP eligibility."
+      ]
+    },
+    {
+      "id": "yt-channel-monetization-policies",
+      "title": "YouTube channel monetization policies",
+      "url": "https://support.google.com/youtube/answer/1311392",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "On 2025-07-15 repetitious content was renamed inauthentic content, targeting mass-produced or templated material.",
+        "Reused content can still monetize with significant original commentary or substantive modification."
+      ]
+    },
+    {
+      "id": "yt-advertiser-friendly",
+      "title": "Advertiser-friendly content guidelines",
+      "url": "https://support.google.com/youtube/answer/6162278",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Three monetization icons: green (full ad revenue), yellow (limited or no ads), red (no ad revenue).",
+        "The red icon commonly indicates an active copyright claim; the icon definitions live in the monetization icon guide (9208564) and the limited-or-no-ads page (9269824)."
+      ]
+    },
+    {
+      "id": "yt-midroll-breaks",
+      "title": "Manage mid-roll ad breaks in long videos",
+      "url": "https://support.google.com/youtube/answer/6175006",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Videos must be 8 minutes or longer to enable mid-roll ads.",
+        "Ad slots at natural breakpoints are more likely to serve; disruptive placements are flagged."
+      ]
+    },
+    {
+      "id": "yt-midroll-update-blog",
+      "title": "Mid-roll ads updates explained",
+      "url": "https://blog.youtube/creator-and-artist-stories/mid-roll-ads-updates-explained/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Combining automatic and manual mid-roll slots showed an average 5% revenue increase.",
+        "The opt-out deadline for adding automatic slots to existing manual-only videos was 2025-05-12."
+      ]
+    },
+    {
+      "id": "yt-shopping-affiliate",
+      "title": "YouTube Shopping affiliate program overview and eligibility",
+      "url": "https://support.google.com/youtube/answer/13376398",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The Shopping affiliate program is open to YPP creators with at least 500 subscribers.",
+        "Each brand sets its own commission rate and attribution window."
+      ]
+    },
+    {
+      "id": "vidiq-rpm-explained",
+      "title": "YouTube RPM Explained",
+      "url": "https://vidiq.com/blog/post/youtube-rpm/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "medium",
+      "claims": [
+        "RPM equals total revenue divided by total views times 1,000 across all revenue sources after YouTube's cut.",
+        "RPM by niche: finance $4-$12, business $4-$9, entertainment $1-$2, Shorts $0.01-$0.07."
+      ]
+    },
+    {
+      "id": "yt-content-performance",
+      "title": "Understand your YouTube content performance",
+      "url": "https://support.google.com/youtube/answer/12220281",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "The official funnel is impressions, click-through rate, views, and watch time.",
+        "Subscribers driven is the funnel endpoint, broken out by content type."
+      ]
+    },
+    {
+      "id": "yt-video-reach",
+      "title": "Understand your YouTube video reach",
+      "url": "https://support.google.com/youtube/answer/9314355",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Traffic-source types include Browse features, Suggested videos, YouTube search, Channel pages, External, Notifications, Playlists, and Direct or unknown."
+      ]
+    },
+    {
+      "id": "yt-impressions-watch-time",
+      "title": "Check your YouTube impressions and watch time",
+      "url": "https://support.google.com/youtube/answer/6299733",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "A registered impression counts only when a thumbnail is shown for more than 1 second and at least 50% visible.",
+        "Impressions are not counted for external or embedded players, notifications, or background-tab playback."
+      ]
+    },
+    {
+      "id": "yt-audience-report",
+      "title": "Understand your YouTube audience",
+      "url": "https://support.google.com/youtube/answer/9314416",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "Returning viewers already watched the channel and came back; new viewers watched for the first time.",
+        "Monthly audience is a rolling 28-day estimate; the report shows when viewers are on YouTube."
+      ]
+    },
+    {
+      "id": "yt-upload-schedule",
+      "title": "Upload schedule tips",
+      "url": "https://support.google.com/youtube/answer/13616979",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "A consistent, sustainable release schedule builds and fulfills audience expectations.",
+        "YouTube advises scheduling tools and batch filming to stay consistent."
+      ]
+    },
+    {
+      "id": "yt-recommendations-good-to-know",
+      "title": "Good to know about recommendations",
+      "url": "https://support.google.com/youtube/answer/16559651",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-07-23",
+      "confidence": "high",
+      "claims": [
+        "There is no universal ideal length for YouTube videos; avoid filler and artificial stretching.",
+        "An individual video's underperformance does not penalize a channel overall."
+      ]
+    },
+    {
+      "id": "vidiq-upload-frequency-5m",
+      "title": "How Often to Post on YouTube (5 Million Channels)",
+      "url": "https://vidiq.com/blog/post/How-Often-Post-on-Youtube/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "medium",
+      "claims": [
+        "Across 5 million channels, posting 12+ videos per month generates 53% more views and 66% more subscribers than posting 1-3 times per month."
+      ]
+    },
+    {
+      "id": "yt-communities-blog",
+      "title": "A new YouTube Communities experience for fans, by fans",
+      "url": "https://blog.youtube/news-and-events/a-new-youtube-communities-experience-for-fans-by-fans/",
+      "source_type": "official",
+      "retrieved": "2026-06-23",
+      "refresh_due": "2026-09-23",
+      "confidence": "high",
+      "claims": [
+        "Communities is a fan-driven space where fans post and reply; to start, only subscribers can post."
+      ]
+    },
+    {
+      "id": "yt-data-api-getting-started",
+      "title": "YouTube Data API Overview",
+      "url": "https://developers.google.com/youtube/v3/getting-started",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Default quota is 10,000 units/day plus separate 100 search.list and 100 videos.insert calls/day.",
+        "API keys read public data; insert, update, and delete always require OAuth 2.0."
+      ]
+    },
+    {
+      "id": "yt-quota-calculator",
+      "title": "Quota Calculator",
+      "url": "https://developers.google.com/youtube/v3/determine_quota_cost",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "List reads cost 1 unit; writes cost 50 units; captions.insert 400 units and captions.update 450 units."
+      ]
+    },
+    {
+      "id": "yt-quota-compliance",
+      "title": "Quota and Compliance Audits",
+      "url": "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Exceeding the default quota requires passing a compliance audit against the API Terms of Service."
+      ]
+    },
+    {
+      "id": "yt-api-auth",
+      "title": "Implementing OAuth 2.0 Authorization",
+      "url": "https://developers.google.com/youtube/v3/guides/authentication",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Scopes (youtube.readonly, youtube, youtube.force-ssl, youtube.upload, youtubepartner) define what an app can do as the user."
+      ]
+    },
+    {
+      "id": "yt-api-reference",
+      "title": "YouTube Data API Reference",
+      "url": "https://developers.google.com/youtube/v3/docs",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Resources include search, videos, channels, playlists, playlistItems, comments, captions, subscriptions, thumbnails, watermarks."
+      ]
+    },
+    {
+      "id": "yt-search-list",
+      "title": "Search: list",
+      "url": "https://developers.google.com/youtube/v3/docs/search/list",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "search.list returns IDs and snippets only, maxResults 0-50, costs 1 unit but is capped at 100 calls/day."
+      ]
+    },
+    {
+      "id": "yt-videos-insert",
+      "title": "Videos: insert",
+      "url": "https://developers.google.com/youtube/v3/docs/videos/insert",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "videos.insert requires OAuth and supports resumable upload up to 256 GB."
+      ]
+    },
+    {
+      "id": "yt-analytics-reporting-intro",
+      "title": "Analytics and Reporting APIs Introduction",
+      "url": "https://developers.google.com/youtube/reporting",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Analytics API serves real-time targeted queries; Reporting API serves bulk predefined daily reports."
+      ]
+    },
+    {
+      "id": "yt-reporting-bulk",
+      "title": "Get Bulk Data Reports",
+      "url": "https://developers.google.com/youtube/reporting/v1/reports",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "jobs.create with a reportTypeId produces daily CSVs available within 48 hours; about 30 days of backfill."
+      ]
+    },
+    {
+      "id": "yt-live-api",
+      "title": "YouTube Live Streaming API Overview",
+      "url": "https://developers.google.com/youtube/v3/live/getting-started",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "liveBroadcasts, liveStreams, and cuepoint; bind links them and transition advances ready, testing, live; OAuth for writes."
+      ]
+    },
+    {
+      "id": "yt-developer-policies",
+      "title": "YouTube API Services Developer Policies",
+      "url": "https://developers.google.com/youtube/terms/developer-policies",
+      "source_type": "primary",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-09-24",
+      "confidence": "high",
+      "claims": [
+        "Authorized API data must be deleted or refreshed within 30 days; user deletions within 7 days; no scraping or fake engagement."
+      ]
+    },
+    {
+      "id": "yt-api-revision-history",
+      "title": "YouTube Data API Revision History",
+      "url": "https://developers.google.com/youtube/v3/revision_history",
+      "source_type": "primary",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-09-24",
+      "confidence": "high",
+      "claims": [
+        "2026-06-01 introduced granular quota buckets; 2025-12-04 cut upload cost to about 100 units."
+      ]
+    },
+    {
+      "id": "gads-video-ad-formats",
+      "title": "About video ad formats",
+      "url": "https://support.google.com/google-ads/answer/2375464",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Skippable in-stream skips after 5s; bumper 6s; non-skippable up to 60s; in-feed in search and related; Masthead reservation-only."
+      ]
+    },
+    {
+      "id": "gads-cpv-bidding",
+      "title": "About cost-per-view (CPV) bidding",
+      "url": "https://support.google.com/google-ads/answer/2472735",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "An in-stream view counts at 30s or full ad or interaction; in-feed at click or 10s autoplay; Shorts at 10s, full, or CTA."
+      ]
+    },
+    {
+      "id": "gads-vac-to-demandgen",
+      "title": "Video Action Campaigns upgraded to Demand Gen",
+      "url": "https://support.google.com/google-ads/answer/15110871",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "New VACs blocked from April 2025; auto-upgrades to Demand Gen from July 2025; final upgrades by April 2026."
+      ]
+    },
+    {
+      "id": "blog-vac-demandgen",
+      "title": "Upgrading Video Action Campaigns to Demand Gen",
+      "url": "https://blog.google/products/ads-commerce/video-action-campaigns-demand-gen-upgrade/",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Video plus image assets in Demand Gen drove 20% more conversions at the same CPA; Demand Gen reaches 3 billion monthly users."
+      ]
+    },
+    {
+      "id": "gads-demand-gen-about",
+      "title": "About Demand Gen campaigns",
+      "url": "https://support.google.com/google-ads/answer/13695777",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Demand Gen serves across YouTube, Shorts, Discover, Gmail, Maps, and Display; bids Maximize Conversions, Target CPA, Target ROAS, Maximize Clicks."
+      ]
+    },
+    {
+      "id": "gads-video-reach",
+      "title": "Video reach campaigns",
+      "url": "https://support.google.com/google-ads/answer/10581234",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Three subtypes: efficient reach, non-skippable reach, and target frequency."
+      ]
+    },
+    {
+      "id": "gads-target-frequency",
+      "title": "About Target frequency",
+      "url": "https://support.google.com/google-ads/answer/12400225",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Multi-format frequency targets 2-7 weekly or 4-12 monthly; an average target, not a cap."
+      ]
+    },
+    {
+      "id": "gads-video-views",
+      "title": "About Video views",
+      "url": "https://support.google.com/google-ads/answer/13982458",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Video views campaigns use multi-format ads on Target CPV and can deliver up to 40% more views for the budget."
+      ]
+    },
+    {
+      "id": "gads-nonskippable",
+      "title": "Non-skippable in-stream ads",
+      "url": "https://support.google.com/google-ads/answer/11462260",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Bumper up to 6s, standard 7-15s, and a 30s connected-TV-only horizontal format; Target CPM."
+      ]
+    },
+    {
+      "id": "gads-view-metrics",
+      "title": "About YouTube ads and view metrics",
+      "url": "https://support.google.com/google-ads/answer/2375431",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Distinguishes TrueView views from view-through conversions; earned actions tracked within 7 days; reports Unique Reach and frequency."
+      ]
+    },
+    {
+      "id": "gads-audience-segments",
+      "title": "About audience segments",
+      "url": "https://support.google.com/google-ads/answer/2497941",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Affinity, in-market, life events, detailed demographics, custom, and your-data segments; no sensitive-data targeting."
+      ]
+    },
+    {
+      "id": "adspolicy-restricted-targeting",
+      "title": "Restricted targeting in Personalized advertising",
+      "url": "https://support.google.com/adspolicy/answer/143465",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Sensitive categories are restricted; the DSA bans targeting on sensitive data in the EU and EEA."
+      ]
+    },
+    {
+      "id": "blog-brandcast-2025",
+      "title": "Brandcast 2025",
+      "url": "https://blog.youtube/news-and-events/brandcast-2025/",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Announced an immersive CTV Masthead and Shoppable CTV for the living-room screen."
+      ]
+    },
+    {
+      "id": "sel-vrc-nonskip-2026",
+      "title": "Google launches non-skippable Video Reach for CTV",
+      "url": "https://searchengineland.com/google-launches-vrc-non-skip-ads-globally-470623",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-09-24",
+      "confidence": "medium",
+      "claims": [
+        "VRC non-skip launched globally on 2026-03-03 supporting 6s, 15s, and 30s CTV ads."
+      ]
+    },
+    {
+      "id": "adexchanger-shoppable-ctv",
+      "title": "More Shoppable CTV Ads On YouTube Now",
+      "url": "https://www.adexchanger.com/tv/youre-not-imagining-it-there-are-more-shoppable-ctv-ads-on-youtube-now/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-09-24",
+      "confidence": "medium",
+      "claims": [
+        "Shoppable CTV rolled out 2026-01-23; QR codes lifted conversions over 100%; pulls from Merchant Center feeds."
+      ]
+    },
+    {
+      "id": "yt-end-screens",
+      "title": "Add end screens to videos",
+      "url": "https://support.google.com/youtube/answer/6388789",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Video must be 25+ seconds; end screens use the last 5-20 seconds; up to four elements on 16:9; not on made-for-kids."
+      ]
+    },
+    {
+      "id": "yt-info-cards",
+      "title": "Add info cards to videos",
+      "url": "https://support.google.com/youtube/answer/6140493",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Up to five cards per video in Video, Playlist, Channel, and Link types; blocked on made-for-kids."
+      ]
+    },
+    {
+      "id": "yt-series-playlists",
+      "title": "Series playlists",
+      "url": "https://support.google.com/youtube/answer/6084043",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "An official series cross-features its videos; a video can appear in only one series playlist."
+      ]
+    },
+    {
+      "id": "yt-video-chapters",
+      "title": "Video Chapters",
+      "url": "https://support.google.com/youtube/answer/9884579",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "First timestamp must be 00:00, at least three timestamps, minimum 10-second chapters."
+      ]
+    },
+    {
+      "id": "yt-tags-minimal",
+      "title": "Add tags to your YouTube videos",
+      "url": "https://support.google.com/youtube/answer/146402",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Tags play a minimal role in discovery and are mainly useful for commonly misspelled terms."
+      ]
+    },
+    {
+      "id": "yt-auto-dubbing",
+      "title": "Use automatic dubbing",
+      "url": "https://support.google.com/youtube/answer/15569972",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Auto dubbing dubs into English from 29 languages and out of English into 20; skips 120+ minute or Content-ID-claimed videos."
+      ]
+    },
+    {
+      "id": "yt-blog-auto-dubbing",
+      "title": "Unlocking a global audience with auto dubbing",
+      "url": "https://blog.youtube/news-and-events/youtube-auto-dubbing-expressive-speech/",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Auto dubbing available in 27 languages; over 6 million daily viewers watched dubbed content in December."
+      ]
+    },
+    {
+      "id": "yt-channel-layout",
+      "title": "Customize your YouTube channel layout",
+      "url": "https://support.google.com/youtube/answer/3219384",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Channel trailer for non-subscribers and spotlight for returning subscribers; up to 12 custom sections."
+      ]
+    },
+    {
+      "id": "yt-inspiration-tab",
+      "title": "Explore Inspiration tab",
+      "url": "https://support.google.com/youtube/answer/15575509",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Generates AI ideas, titles, thumbnails, and outlines; prompts deleted after 45 days; desktop and English only."
+      ]
+    },
+    {
+      "id": "yt-copyright-strikes",
+      "title": "Understand copyright strikes",
+      "url": "https://support.google.com/youtube/answer/2814000",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Three copyright strikes in 90 days can terminate a channel; a strike expires 90 days after Copyright School; a Content ID claim is not a strike."
+      ]
+    },
+    {
+      "id": "yt-content-id-claims",
+      "title": "Learn about Content ID claims",
+      "url": "https://support.google.com/youtube/answer/6013276",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "A Content ID claim is auto-generated, is not a strike, and usually does not impact the channel."
+      ]
+    },
+    {
+      "id": "yt-cg-strikes",
+      "title": "Community Guidelines strike basics",
+      "url": "https://support.google.com/youtube/answer/2802032",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "First strike one-week freeze, second two weeks, three strikes in 90 days can terminate; deleting content does not remove a strike."
+      ]
+    },
+    {
+      "id": "yt-made-for-kids",
+      "title": "Set your channel or video's audience",
+      "url": "https://support.google.com/youtube/answer/9527654",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Made-for-kids is a COPPA requirement that disables comments, cards, end screens, personalized ads, memberships, and more."
+      ]
+    },
+    {
+      "id": "yt-collaboration-tips",
+      "title": "Collaboration tips",
+      "url": "https://support.google.com/youtube/answer/12340107",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "A collaboration can be recommended to both audiences; choose partners by audience compatibility, not subscriber count."
+      ]
+    },
+    {
+      "id": "yt-monetize-live",
+      "title": "Monetize your live stream",
+      "url": "https://support.google.com/youtube/answer/7385599",
+      "source_type": "official",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-07-24",
+      "confidence": "high",
+      "claims": [
+        "Live automated mid-rolls averaged over 20% uplift in in-stream ad revenue per hour; Supers pay creators 70%."
+      ]
+    },
+    {
+      "id": "vidiq-profitable-niches",
+      "title": "Highest-Paying YouTube Niches",
+      "url": "https://vidiq.com/blog/post/most-profitable-youtube-niches/",
+      "source_type": "practitioner",
+      "retrieved": "2026-06-24",
+      "refresh_due": "2026-09-24",
+      "confidence": "medium",
+      "claims": [
+        "Finance, insurance, and legal command the highest CPMs (about $15-$50); creator RPM runs 30-50% below CPM."
+      ]
+    },
+    {
+      "id": "yt-subscribe-channels",
+      "title": "Subscribe to YouTube channels",
+      "url": "https://support.google.com/youtube/answer/4489286",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Subscribing surfaces a channel's new uploads in the viewer's Subscriptions feed.",
+        "A viewer can have up to 75 new subscriptions per day."
+      ]
+    },
+    {
+      "id": "yt-manage-notifications",
+      "title": "Manage YouTube notifications",
+      "url": "https://support.google.com/youtube/answer/3382248",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "The notification bell offers All, Personalized, and None settings.",
+        "Made-for-kids channels force the bell to no notifications."
+      ]
+    },
+    {
+      "id": "yt-fix-subscriber-notifications",
+      "title": "Fix subscriber notification problems",
+      "url": "https://support.google.com/youtube/answer/7389684",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Not every upload triggers a notification; delivery is timed by viewer signals.",
+        "A channel can send at most 3 notifications per subscriber per 24 hours.",
+        "Personalized subscribers still see every upload in the Subscriptions feed even without a push."
+      ]
+    },
+    {
+      "id": "yt-check-subscriber-notifications",
+      "title": "Check subscriber notifications",
+      "url": "https://support.google.com/youtube/answer/9336507",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "The all-notifications reach metric counts only subscribers on All with device notifications enabled.",
+        "Notifications are one of many traffic sources for views."
+      ]
+    },
+    {
+      "id": "yt-subscription-privacy",
+      "title": "Change your subscription privacy settings",
+      "url": "https://support.google.com/youtube/answer/7280190",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Subscriptions are private by default.",
+        "A channel's subscriber list only shows subscribers who made their subscriptions public."
+      ]
+    },
+    {
+      "id": "yt-creator-awards",
+      "title": "YouTube Creator Awards",
+      "url": "https://support.google.com/youtube/answer/7682560",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Creator Awards thresholds: Silver 100k, Gold 1M, Diamond 10M, Red Diamond 100M subscribers.",
+        "Eligibility requires a count free of artificially inflated subscribers."
+      ]
+    },
+    {
+      "id": "yt-memberships-get-started",
+      "title": "Get started with channel memberships",
+      "url": "https://support.google.com/youtube/answer/7636690",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Channel memberships let viewers pay a recurring monthly fee for perks.",
+        "Viewers must be 18+ to join a membership."
+      ]
+    },
+    {
+      "id": "yt-memberships-manage",
+      "title": "Analyze and manage your channel memberships program",
+      "url": "https://support.google.com/youtube/answer/7491256",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Creators get 70% of membership revenue after applicable taxes and fees.",
+        "YouTube currently covers transaction and credit-card costs."
+      ]
+    },
+    {
+      "id": "yt-memberships-pricing-us",
+      "title": "Pricing for channel memberships (United States)",
+      "url": "https://support.google.com/youtube/answer/10119895",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "US membership price points range from $0.99 to $499.99 per month.",
+        "A pricing-options update began rolling out from May 2025."
+      ]
+    },
+    {
+      "id": "yt-super-thanks-manage",
+      "title": "Turn on and manage Super Thanks",
+      "url": "https://support.google.com/youtube/answer/10878910",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Super Thanks is a one-time purchase on watch pages for long-form videos and Shorts.",
+        "Creators get 70% of Super Thanks revenue after taxes and fees."
+      ]
+    },
+    {
+      "id": "yt-super-thanks-eligibility",
+      "title": "Super Thanks eligibility, availability, and policies",
+      "url": "https://support.google.com/youtube/answer/10879035",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Super Thanks is available to eligible creators in 150+ countries.",
+        "Not available on live streams, age-restricted, made-for-kids, or private videos."
+      ]
+    },
+    {
+      "id": "yt-super-chat-eligibility",
+      "title": "Super Chat & Super Stickers eligibility, availability, and policies",
+      "url": "https://support.google.com/youtube/answer/9277801",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Super Chat and Super Stickers are purchases during live streams and Premieres.",
+        "Available to eligible creators in 140+ countries."
+      ]
+    },
+    {
+      "id": "yt-buy-super-chat",
+      "title": "Buy a Super Chat or Super Sticker",
+      "url": "https://support.google.com/youtube/answer/9178363",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Viewer spend is capped at $500/day and $2,000/week across all Supers and gifts combined.",
+        "Purchases under $5 do not appear in the ticker."
+      ]
+    },
+    {
+      "id": "yt-gift-memberships",
+      "title": "Gift channel memberships on YouTube",
+      "url": "https://support.google.com/youtube/answer/15935230",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Gifted memberships grant up to one month of perks and then expire.",
+        "Gifts are non-recurring and non-refundable and occur during live streams or Premieres."
+      ]
+    },
+    {
+      "id": "yt-shopping-get-started",
+      "title": "Get started with Shopping on YouTube",
+      "url": "https://support.google.com/youtube/answer/12257682",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "YouTube Shopping splits into tagging your own products and the affiliate program.",
+        "Own-store Shopping requires YPP and the subscriber threshold."
+      ]
+    },
+    {
+      "id": "yt-shopping-connect-store",
+      "title": "Connect, manage, & disconnect your store on YouTube",
+      "url": "https://support.google.com/youtube/answer/12258186",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Supported store platforms include Shopify, Wix, Fourthwall, Spreadshop, Spring, and SHOPLINE.",
+        "Connected products are reviewed for policy and Merchant Center compliance."
+      ]
+    },
+    {
+      "id": "yt-shopping-500-subs",
+      "title": "Expanding YouTube Shopping to creators with 500+ subscribers",
+      "url": "https://blog.youtube/creator-and-artist-stories/youtube-shopping-expansion-500-subscribers/",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "As of March 2026 the affiliate program is open to YPP creators with at least 500 subscribers.",
+        "Affiliate commissions are paid via AdSense 60-120 days after purchase."
+      ]
+    },
+    {
+      "id": "yt-podcasts-distribute",
+      "title": "Distribute podcasts on YouTube",
+      "url": "https://support.google.com/youtube/answer/13175969",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "A YouTube podcast is a playlist whose episodes are videos.",
+        "Podcasts are included in YouTube Music with background play without Premium."
+      ]
+    },
+    {
+      "id": "yt-podcasts-rss",
+      "title": "Deliver podcasts using an RSS feed",
+      "url": "https://support.google.com/youtube/answer/13525207",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "RSS ingestion auto-creates a video per episode from the show art.",
+        "RSS will not refresh show details or notify subscribers for back-catalog episodes."
+      ]
+    },
+    {
+      "id": "yt-take-course",
+      "title": "Take a course on YouTube",
+      "url": "https://support.google.com/youtube/answer/12751869",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Ad-supported courses became globally available on 2025-10-15.",
+        "Paid one-time-payment courses remain a limited test; most revenue goes to the creator."
+      ]
+    },
+    {
+      "id": "yt-create-course",
+      "title": "Create a course in YouTube Studio",
+      "url": "https://support.google.com/youtube/answer/15128409",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Creating a course requires advanced features access and at least 3 original teaching videos.",
+        "Courses cannot reuse videos from other channels or be age-restricted."
+      ]
+    },
+    {
+      "id": "yt-learning-next-chapter",
+      "title": "The next chapter for Learning on YouTube",
+      "url": "https://blog.youtube/news-and-events/the-next-chapter-for-learning-on-youtube/",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Courses can be free and ad-supported or paid and ad-free with background play."
+      ]
+    },
+    {
+      "id": "yt-playables",
+      "title": "Playables on YouTube",
+      "url": "https://support.google.com/youtube/answer/14328604",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Playables are games inside YouTube requiring no Premium subscription.",
+        "Availability is region-gated to seven territories including the US, UK, and Canada."
+      ]
+    },
+    {
+      "id": "yt-channel-permissions",
+      "title": "Add or remove access to your channel with channel permissions",
+      "url": "https://support.google.com/youtube/answer/9481328",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Channel permissions roles include Owner, Manager, Editor, Editor (Limited), Subtitle Editor, Viewer, and Viewer (Limited).",
+        "Channel permission invites expire after 30 days."
+      ]
+    },
+    {
+      "id": "gacct-manage-brand-account",
+      "title": "Manage your Brand Account",
+      "url": "https://support.google.com/accounts/answer/7001996",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "A Brand Account can have multiple owners and managers and must have one primary owner.",
+        "You must be an owner for 7 days before deleting or restoring the account."
+      ]
+    },
+    {
+      "id": "gacct-brand-account-roles",
+      "title": "Change who manages your Brand Account",
+      "url": "https://support.google.com/accounts/answer/7311601",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Brand Account roles are primary owner, owner, manager, and communications manager.",
+        "You must be an owner for 7 days before you can remove owners or managers."
+      ]
+    },
+    {
+      "id": "yt-change-channel-owners",
+      "title": "Change channel owners & managers with a Brand Account",
+      "url": "https://support.google.com/youtube/answer/4628007",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Ownership can only be transferred when the channel is on a Brand Account.",
+        "Both parties must have held an owner or manager role for 7 days to transfer primary ownership."
+      ]
+    },
+    {
+      "id": "yt-migrate-channel-permissions",
+      "title": "Migrate from Brand Account user access to channel permissions",
+      "url": "https://support.google.com/youtube/answer/9367690",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "YouTube is migrating channel sharing from Brand Account roles to Studio channel permissions for security."
+      ]
+    },
+    {
+      "id": "yt-feature-access",
+      "title": "Learn about feature access for YouTube creators",
+      "url": "https://support.google.com/youtube/answer/9890437",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Feature access has standard, intermediate, and advanced tiers.",
+        "Intermediate features require phone verification; advanced require channel history or ID/video verification."
+      ]
+    },
+    {
+      "id": "yt-handles-learn",
+      "title": "Learn about YouTube handles",
+      "url": "https://support.google.com/youtube/answer/11585688",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "A handle is a unique channel identifier starting with @ and becomes the channel URL.",
+        "Standard handles are 3-30 characters."
+      ]
+    },
+    {
+      "id": "yt-channel-urls",
+      "title": "Understand your YouTube channel's URLs",
+      "url": "https://support.google.com/youtube/answer/6180214",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "The handle URL format is youtube.com/@handle and is created automatically.",
+        "Legacy custom and username URLs redirect to the handle-based URL."
+      ]
+    },
+    {
+      "id": "yt-change-handle",
+      "title": "Change, view, or hide your handle",
+      "url": "https://support.google.com/youtube/answer/15920820",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "A handle can be changed twice within a 14-day period.",
+        "A former handle is held for 14 days before becoming available to others."
+      ]
+    },
+    {
+      "id": "yt-custom-url-overview",
+      "title": "Custom URL overview",
+      "url": "https://support.google.com/youtube/answer/2657968",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "New custom URLs can no longer be created and existing ones can no longer be changed."
+      ]
+    },
+    {
+      "id": "yt-mention-channels",
+      "title": "Mention channels in video titles & descriptions",
+      "url": "https://support.google.com/youtube/answer/9637404",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Typing @ lets a creator mention another channel by name or handle.",
+        "Not every mention triggers a notification."
+      ]
+    },
+    {
+      "id": "yt-impersonation-policy",
+      "title": "Impersonation policy",
+      "url": "https://support.google.com/youtube/answer/2801947",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Handles or names phonetically identical or visually similar to an established entity are prohibited."
+      ]
+    },
+    {
+      "id": "api-subscriptions-resource",
+      "title": "Subscriptions resource (Data API v3)",
+      "url": "https://developers.google.com/youtube/v3/docs/subscriptions",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "The subscriptions resource represents a user's subscription to a channel."
+      ]
+    },
+    {
+      "id": "api-subscriptions-list",
+      "title": "Subscriptions: list",
+      "url": "https://developers.google.com/youtube/v3/docs/subscriptions/list",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "subscriptions.list costs 1 unit and requires exactly one filter such as mine, channelId, or mySubscribers.",
+        "There is no mySubscriptions parameter; use mine=true."
+      ]
+    },
+    {
+      "id": "api-members-list",
+      "title": "Members: list",
+      "url": "https://developers.google.com/youtube/v3/docs/members/list",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "members.list costs 2 units and is creator-only and allowlisted.",
+        "Requires the youtube.channel-memberships.creator OAuth scope."
+      ]
+    },
+    {
+      "id": "api-memberships-levels-list",
+      "title": "MembershipsLevels: list",
+      "url": "https://developers.google.com/youtube/v3/docs/membershipsLevels/list",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "membershipsLevels.list costs 1 unit and returns the creator's membership levels."
+      ]
+    },
+    {
+      "id": "api-push-notifications",
+      "title": "Push Notifications (WebSub/PubSubHubbub)",
+      "url": "https://developers.google.com/youtube/v3/guides/push_notifications",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Push notifications use the WebSub hub at pubsubhubbub.appspot.com to notify on uploads and edits.",
+        "The channel upload feed topic is youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID."
+      ]
+    },
+    {
+      "id": "ga-content-suitability",
+      "title": "About content suitability",
+      "url": "https://support.google.com/google-ads/answer/12764663",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Inventory modes are now named Maximum, Moderate, and Limited, replacing Expanded/Standard/Limited.",
+        "As of September 2024 YouTube ads no longer use digital content labels from brand-safety settings."
+      ]
+    },
+    {
+      "id": "ga-brand-suitability-feeds",
+      "title": "New brand suitability controls for YouTube feeds and Discover",
+      "url": "https://support.google.com/google-ads/answer/16713852",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "As of November 2025 inventory types and content-theme exclusions extend to Home feed, Watch Next, and Discover."
+      ]
+    },
+    {
+      "id": "ga-masthead",
+      "title": "About the YouTube Masthead",
+      "url": "https://support.google.com/google-ads/answer/9709826",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "The Masthead is a reservation format at the top of the Home feed, sold as CPM or CPH.",
+        "CPH Masthead secures 100% share of voice during reserved hours."
+      ]
+    },
+    {
+      "id": "ga-masthead-cpm",
+      "title": "Create a YouTube CPM Masthead campaign",
+      "url": "https://support.google.com/google-ads/answer/14117675",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "CPM Masthead is bought via a Google rep, Programmatic Guaranteed, or Google Ads Reservation, usually with allowlisting."
+      ]
+    },
+    {
+      "id": "yt-shorts-tall-updates",
+      "title": "Tall updates coming to Shorts",
+      "url": "https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "YouTube announced format updates to Shorts."
+      ]
+    },
+    {
+      "id": "api-analytics-channel-reports",
+      "title": "YouTube Analytics API channel reports",
+      "url": "https://developers.google.com/youtube/analytics/channel_reports",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents YouTube Analytics API channel report dimensions and metrics."
+      ]
+    },
+    {
+      "id": "api-registering-application",
+      "title": "Registering your application",
+      "url": "https://developers.google.com/youtube/registering_an_application",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains registering an app and obtaining API key or OAuth credentials."
+      ]
+    },
+    {
+      "id": "api-videos-list",
+      "title": "Videos: list",
+      "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+      "source_type": "api-docs",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "videos.list returns snippet, contentDetails, statistics, and status parts for videos."
+      ]
+    },
+    {
+      "id": "ga-personalized-ads-update",
+      "title": "Update to the Personalized ads policy",
+      "url": "https://support.google.com/adspolicy/answer/16758212",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "A 2025-12-12 update expanded Custom Segments for Display advertisers."
+      ]
+    },
+    {
+      "id": "yt-transparency-enforcement",
+      "title": "YouTube Community Guidelines enforcement",
+      "url": "https://support.google.com/transparencyreport/answer/9209072",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Describes YouTube Community Guidelines enforcement reported in the transparency report."
+      ]
+    },
+    {
+      "id": "yt-add-chapters",
+      "title": "Add video chapters and key moments",
+      "url": "https://support.google.com/youtube/answer/12948449",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains adding chapters and key moments to videos."
+      ]
+    },
+    {
+      "id": "yt-auto-dubbing-2",
+      "title": "Auto dubbing and multi-language audio",
+      "url": "https://support.google.com/youtube/answer/13338784",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents auto dubbing and multi-language audio tracks."
+      ]
+    },
+    {
+      "id": "yt-test-and-compare",
+      "title": "Test & Compare thumbnails",
+      "url": "https://support.google.com/youtube/answer/16391400",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents the native Thumbnail Test & Compare A/B feature."
+      ]
+    },
+    {
+      "id": "yt-collaborations-feature",
+      "title": "Collaborate with other creators",
+      "url": "https://support.google.com/youtube/answer/16554898",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents the collaboration/cross-promotion feature."
+      ]
+    },
+    {
+      "id": "yt-add-subtitles",
+      "title": "Add subtitles and captions",
+      "url": "https://support.google.com/youtube/answer/2734796",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains adding subtitles and captions to videos."
+      ]
+    },
+    {
+      "id": "yt-create-playlists",
+      "title": "Create and manage playlists",
+      "url": "https://support.google.com/youtube/answer/6327615",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains creating and managing playlists and series."
+      ]
+    },
+    {
+      "id": "yt-copyright-strike-basics",
+      "title": "Copyright strike basics",
+      "url": "https://support.google.com/youtube/answer/7002106",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains how copyright strikes work and their consequences."
+      ]
+    },
+    {
+      "id": "yt-custom-thumbnails",
+      "title": "Add custom video thumbnails",
+      "url": "https://support.google.com/youtube/answer/72431",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents custom thumbnail requirements and specs."
+      ]
+    },
+    {
+      "id": "yt-analytics-advanced",
+      "title": "Understand YouTube Analytics (Advanced mode)",
+      "url": "https://support.google.com/youtube/answer/9002587",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Documents YouTube Studio Analytics tabs and Advanced mode data."
+      ]
+    },
+    {
+      "id": "yt-memberships-levels-perks",
+      "title": "Create or manage your channel's membership levels and perks",
+      "url": "https://support.google.com/youtube/answer/7544492",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Up to 6 membership levels, each with 1-5 stacked perks like badges, emoji, and members-only content."
+      ]
+    },
+    {
+      "id": "yt-manage-super-chat",
+      "title": "Manage Super Chat and Super Stickers for live chat",
+      "url": "https://support.google.com/youtube/answer/7288782",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Creators receive 70% of Supers revenue after taxes and fees."
+      ]
+    },
+    {
+      "id": "yt-learn-about-posts",
+      "title": "Learn about posts",
+      "url": "https://support.google.com/youtube/answer/9409631",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Community posts support text, polls, quizzes, images, GIFs, and video."
+      ]
+    },
+    {
+      "id": "yt-manage-channel-branding",
+      "title": "Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Covers channel branding elements such as banner, profile picture, and watermark."
+      ]
+    },
+    {
+      "id": "yt-banner-profile-tips",
+      "title": "Channel banner and profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Specifies channel banner and profile picture size and safe-area requirements."
+      ]
+    },
+    {
+      "id": "yt-self-certification",
+      "title": "YouTube Self-Certification overview",
+      "url": "https://support.google.com/youtube/answer/7687980",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Self-certification lets creators rate their own videos against the advertiser-friendly guidelines."
+      ]
+    },
+    {
+      "id": "yt-premiere-video",
+      "title": "Premiere a new video",
+      "url": "https://support.google.com/youtube/answer/9080341",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Premieres add a countdown and live chat, then become regular videos."
+      ]
+    },
+    {
+      "id": "yt-mobile-live-stream",
+      "title": "Create a live stream on mobile",
+      "url": "https://support.google.com/youtube/answer/9228390",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Mobile live streaming has subscriber-count eligibility requirements."
+      ]
+    },
+    {
+      "id": "yt-made-for-kids-determine",
+      "title": "Determining if your content is made for kids",
+      "url": "https://support.google.com/youtube/answer/9528076",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Explains how to set the made-for-kids audience designation under COPPA."
+      ]
+    },
+    {
+      "id": "yt-ads-made-for-kids",
+      "title": "How ads work on made-for-kids content",
+      "url": "https://support.google.com/youtube/answer/9713557",
+      "source_type": "official",
+      "retrieved": "2026-06-26",
+      "refresh_due": "2026-07-26",
+      "confidence": "high",
+      "claims": [
+        "Made-for-kids content serves only contextual, non-personalized ads."
+      ]
+    }
+  ],
+  "updated_at": "2026-06-26"
+}
