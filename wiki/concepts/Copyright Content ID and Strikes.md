@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://support.google.com/youtube/answer/2814000"
   - "https://support.google.com/youtube/answer/6013276"
-  - "https://support.google.com/youtube/answer/7002106"
+  - "https://support.google.com/youtube/answer/2814000"
 ---
 
 # Copyright Content ID and Strikes
@@ -89,5 +89,5 @@ policies evolve; verify current wording before advising, per
 - Learn about Content ID claims, YouTube Help, retrieved 2026-06-24,
   https://support.google.com/youtube/answer/6013276
 - What is a copyright claim, YouTube Help, retrieved 2026-06-24,
-  https://support.google.com/youtube/answer/7002106
+  https://support.google.com/youtube/answer/2814000
 - See [[research-pack-2026-06-23]] and [[index]].

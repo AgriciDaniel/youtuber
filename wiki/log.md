@@ -3,7 +3,7 @@ type: meta
 title: "Log"
 status: evergreen
 created: 2026-06-23
-updated: 2026-06-26
+updated: 2026-10-28
 tags: [meta, log, changelog]
 domain: "Meta"
 ---
@@ -13,6 +13,19 @@ domain: "Meta"
 Append-only history of the YouTube Brain. Newest entries on top. See [[index]]
 for the
 catalog and [[Source Intake and Refresh]] for the refresh discipline.
+
+## 2026-10-28 source refresh | Verification pass and view-counting update
+
+- Re-requested all 156 ledger URLs. 154 resolved; 19 redirects recorded, and
+  three Help Center IDs now serving a different article were remapped (video
+  chapters, playlists, copyright strikes).
+- Replaced one dead market source with its archived capture and verified one
+  bot-blocked article from its archive.
+- Corrected six claims that no longer matched the page text, including YouTube's
+  2026-08-24 first-frame view counting and the YPP shift to "qualified" watch
+  hours and Shorts views.
+- Added [[research-pack-2026-10-28]] and updated the stale source URLs in the
+  API and concept notes.
 
 ## 2026-06-26 deep audit | Coverage completion and accuracy refresh
 

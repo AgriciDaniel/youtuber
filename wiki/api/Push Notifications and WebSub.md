@@ -16,9 +16,9 @@ related:
   - "[[Subscriptions and Subscribers]]"
   - "[[Source Intake and Refresh]]"
 source_urls:
-  - "https://developers.google.com/youtube/v3/guides/push_notifications"
-  - "https://developers.google.com/youtube/v3/determine_quota_cost"
-  - "https://developers.google.com/youtube/v3/revision_history"
+  - "https://developers.google.com/youtube/data/guides/push_notifications"
+  - "https://developers.google.com/youtube/data/determine_quota_cost"
+  - "https://developers.google.com/youtube/data/revision_history"
 ---
 
 # Push Notifications and WebSub
@@ -85,9 +85,9 @@ schedule and re-subscribe after any callback outage.
 ## Sources
 
 - Push Notifications, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/guides/push_notifications
+  https://developers.google.com/youtube/data/guides/push_notifications
 - Determine quota cost, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/determine_quota_cost
+  https://developers.google.com/youtube/data/determine_quota_cost
 - Revision History, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/revision_history
+  https://developers.google.com/youtube/data/revision_history
 - See [[research-pack-2026-06-23]] and [[index]].

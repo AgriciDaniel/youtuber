@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://support.google.com/youtube/answer/146402"
   - "https://support.google.com/youtube/answer/9884579"
-  - "https://support.google.com/youtube/answer/12948449"
+  - "https://support.google.com/youtube/answer/9884579"
 ---
 
 # Video SEO and Metadata
@@ -83,5 +83,5 @@ override automatic ones.
 - Video Chapters, YouTube Help, retrieved 2026-06-24,
   https://support.google.com/youtube/answer/9884579
 - Tips for video descriptions, YouTube Help, retrieved 2026-06-24,
-  https://support.google.com/youtube/answer/12948449
+  https://support.google.com/youtube/answer/9884579
 - See [[research-pack-2026-06-23]] and [[index]].

@@ -208,5 +208,6 @@ claim traces to [[research-pack-2026-06-23]] and
 ## Sources
 
 - [[research-pack-2026-06-23]]: dated citations across all pillars.
+- [[research-pack-2026-10-28]]: verification refresh of every ledger URL.
 - `references/source-ledger.json`: structured, dated sources.
 - `.raw/research/`: raw research captures.

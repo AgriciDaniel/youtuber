@@ -15,8 +15,8 @@ related:
   - "[[Studio Analytics]]"
   - "[[Source Intake and Refresh]]"
 source_urls:
-  - "https://developers.google.com/youtube/v3/getting-started"
-  - "https://developers.google.com/youtube/v3/guides/authentication"
+  - "https://developers.google.com/youtube/data/getting-started"
+  - "https://developers.google.com/youtube/data/guides/authentication"
   - "https://developers.google.com/youtube/registering_an_application"
 ---
 
@@ -93,9 +93,9 @@ the user. Access tokens are passed in the `Authorization: Bearer` header.
 ## Sources
 
 - YouTube Data API Overview, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/getting-started
+  https://developers.google.com/youtube/data/getting-started
 - Implementing OAuth 2.0 Authorization, Google for Developers, retrieved
-  2026-06-24, https://developers.google.com/youtube/v3/guides/authentication
+  2026-06-24, https://developers.google.com/youtube/data/guides/authentication
 - Obtaining authorization credentials, Google for Developers, retrieved
   2026-06-24, https://developers.google.com/youtube/registering_an_application
 - See [[research-pack-2026-06-23]] and [[index]].

@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://support.google.com/youtube/answer/6084043"
   - "https://support.google.com/youtube/answer/9314355"
-  - "https://support.google.com/youtube/answer/6327615"
+  - "https://support.google.com/youtube/answer/57792"
 ---
 
 # Playlists and Series
@@ -82,5 +82,5 @@ more than one series playlist.
 - Understand your YouTube video reach, YouTube Help, retrieved 2026-06-24,
   https://support.google.com/youtube/answer/9314355
 - Autoplay videos, YouTube Help, retrieved 2026-06-24,
-  https://support.google.com/youtube/answer/6327615
+  https://support.google.com/youtube/answer/57792
 - See [[research-pack-2026-06-23]] and [[index]].

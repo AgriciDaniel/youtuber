@@ -13,6 +13,7 @@ domain: "Meta"
 Provenance for the YouTube Brain. See [[index]] and [[YouTube Brain Home]].
 
 - [[research-pack-2026-06-23]]: 143 dated citations across all pillars.
+- [[research-pack-2026-10-28]]: verification refresh of every ledger URL; URL and claim changes recorded.
 - `references/source-ledger.json`: 156 structured, dated sources.
 - `.raw/research/youtube-deep-research-2026-06-23.md`: the raw research capture.
 

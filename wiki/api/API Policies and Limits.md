@@ -16,8 +16,8 @@ related:
   - "[[Bought Engagement and Sub4Sub]]"
 source_urls:
   - "https://developers.google.com/youtube/terms/developer-policies"
-  - "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits"
-  - "https://developers.google.com/youtube/v3/live/getting-started"
+  - "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits"
+  - "https://developers.google.com/youtube/data/live/getting-started"
 ---
 
 # API Policies and Limits
@@ -100,7 +100,7 @@ Re-verify these on the official revision history before relying on them; see
 - YouTube API Services Developer Policies, Google for Developers, retrieved
   2026-06-24, https://developers.google.com/youtube/terms/developer-policies
 - Quota and Compliance Audits, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits
+  https://developers.google.com/youtube/data/guides/quota_and_compliance_audits
 - YouTube Live Streaming API Overview, Google for Developers, retrieved
-  2026-06-24, https://developers.google.com/youtube/v3/live/getting-started
+  2026-06-24, https://developers.google.com/youtube/data/live/getting-started
 - See [[research-pack-2026-06-23]] and [[index]].

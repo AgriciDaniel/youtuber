@@ -16,7 +16,7 @@ related:
   - "[[Studio Analytics]]"
 source_urls:
   - "https://support.google.com/youtube/answer/15575509"
-  - "https://blog.google/products/youtube/made-on-youtube-2024/"
+  - "https://blog.google/products-and-platforms/products/youtube/made-on-youtube-2024/"
   - "https://support.google.com/youtube/answer/16533387"
 ---
 
@@ -78,7 +78,7 @@ watches rather than untested concepts.
 - Explore Inspiration tab on YouTube, YouTube Help, retrieved 2026-06-24,
   https://support.google.com/youtube/answer/15575509
 - Made on YouTube 2024, Google, 2024-09-18,
-  https://blog.google/products/youtube/made-on-youtube-2024/
+  https://blog.google/products-and-platforms/products/youtube/made-on-youtube-2024/
 - YouTube's Recommendation System, YouTube Help, retrieved 2026-06-24,
   https://support.google.com/youtube/answer/16533387
 - See [[research-pack-2026-06-23]] and [[index]].

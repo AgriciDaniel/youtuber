@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://support.google.com/youtube/answer/7628154"
   - "https://support.google.com/youtube/answer/16767369"
-  - "https://support.google.com/youtube/answer/6299733"
+  - "https://support.google.com/youtube/answer/9314486"
 ---
 
 # Click-Through Rate
@@ -91,5 +91,5 @@ clicks. See
 - Decoding CTR and impressions in your Analytics, YouTube Help, retrieved
   2026-06-23, https://support.google.com/youtube/answer/16767369
 - Check your YouTube impressions and watch time, YouTube Help, retrieved
-  2026-06-23, https://support.google.com/youtube/answer/6299733
+  2026-06-23, https://support.google.com/youtube/answer/9314486
 - See [[research-pack-2026-06-23]] and [[index]].

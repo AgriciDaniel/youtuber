@@ -15,9 +15,9 @@ related:
   - "[[Source Intake and Refresh]]"
   - "[[Studio Analytics]]"
 source_urls:
-  - "https://developers.google.com/youtube/v3/getting-started"
-  - "https://developers.google.com/youtube/v3/determine_quota_cost"
-  - "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits"
+  - "https://developers.google.com/youtube/data/getting-started"
+  - "https://developers.google.com/youtube/data/determine_quota_cost"
+  - "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits"
 ---
 
 # API Quota System
@@ -85,9 +85,9 @@ See
 ## Sources
 
 - YouTube Data API Overview, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/getting-started
+  https://developers.google.com/youtube/data/getting-started
 - Quota Calculator, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/determine_quota_cost
+  https://developers.google.com/youtube/data/determine_quota_cost
 - Quota and Compliance Audits, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits
+  https://developers.google.com/youtube/data/guides/quota_and_compliance_audits
 - See [[research-pack-2026-06-23]] and [[index]].

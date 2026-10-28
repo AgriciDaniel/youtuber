@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://blog.youtube/news-and-events/hype-global-expansion/"
   - "https://support.google.com/youtube/answer/15334500"
-  - "https://blog.google/products/youtube/made-on-youtube-2024/"
+  - "https://blog.google/products-and-platforms/products/youtube/made-on-youtube-2024/"
 ---
 
 # Hype
@@ -84,5 +84,5 @@ small but promising channels. See [[Recommendation System]].
 - Leaderboard for hyped videos, YouTube Help, retrieved 2026-06-23,
   https://support.google.com/youtube/answer/15334500
 - 9 new features at Made on YouTube 2024, Google, 2024-09-18,
-  https://blog.google/products/youtube/made-on-youtube-2024/
+  https://blog.google/products-and-platforms/products/youtube/made-on-youtube-2024/
 - See [[research-pack-2026-06-23]] and [[index]].

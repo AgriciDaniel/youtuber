@@ -17,9 +17,9 @@ related:
   - "[[Live Streaming and Premieres]]"
   - "[[Studio Analytics]]"
 source_urls:
-  - "https://developers.google.com/youtube/v3/docs"
-  - "https://developers.google.com/youtube/v3/docs/search/list"
-  - "https://developers.google.com/youtube/v3/docs/videos/list"
+  - "https://developers.google.com/youtube/data/reference/rest"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/search/list"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/videos/list"
 ---
 
 # API Resources and Methods
@@ -99,9 +99,9 @@ and `cuepoint`; see [[API Policies and Limits]] and
 ## Sources
 
 - API Reference, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/docs
+  https://developers.google.com/youtube/data/reference/rest
 - Search: list, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/docs/search/list
+  https://developers.google.com/youtube/data/reference/rest/v3/search/list
 - Videos: list, Google for Developers, retrieved 2026-06-24,
-  https://developers.google.com/youtube/v3/docs/videos/list
+  https://developers.google.com/youtube/data/reference/rest/v3/videos/list
 - See [[research-pack-2026-06-23]] and [[index]].

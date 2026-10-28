@@ -16,11 +16,11 @@ related:
   - "[[Supers and Gifted Memberships]]"
   - "[[API Policies and Limits]]"
 source_urls:
-  - "https://developers.google.com/youtube/v3/docs/subscriptions"
-  - "https://developers.google.com/youtube/v3/docs/subscriptions/list"
-  - "https://developers.google.com/youtube/v3/docs/members/list"
-  - "https://developers.google.com/youtube/v3/docs/membershipsLevels/list"
-  - "https://developers.google.com/youtube/v3/determine_quota_cost"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/subscriptions"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/subscriptions/list"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/members/list"
+  - "https://developers.google.com/youtube/data/reference/rest/v3/membershipsLevels/list"
+  - "https://developers.google.com/youtube/data/determine_quota_cost"
 ---
 
 # Subscriptions and Members API
@@ -95,13 +95,13 @@ and must be handled under the API Services Terms and the storage rules in
 ## Sources
 
 - Subscriptions resource, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/docs/subscriptions
+  https://developers.google.com/youtube/data/reference/rest/v3/subscriptions
 - Subscriptions: list, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/docs/subscriptions/list
+  https://developers.google.com/youtube/data/reference/rest/v3/subscriptions/list
 - Members: list, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/docs/members/list
+  https://developers.google.com/youtube/data/reference/rest/v3/members/list
 - MembershipsLevels: list, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/docs/membershipsLevels/list
+  https://developers.google.com/youtube/data/reference/rest/v3/membershipsLevels/list
 - Determine quota cost, Google for Developers, retrieved 2026-06-26,
-  https://developers.google.com/youtube/v3/determine_quota_cost
+  https://developers.google.com/youtube/data/determine_quota_cost
 - See [[research-pack-2026-06-23]] and [[index]].

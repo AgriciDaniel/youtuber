@@ -3,7 +3,7 @@ type: meta
 title: "Hot"
 status: evergreen
 created: 2026-06-23
-updated: 2026-06-26
+updated: 2026-10-28
 tags: [meta, hot, cache, working-context]
 domain: "Meta"
 ---
@@ -16,7 +16,9 @@ first, then
 
 ## State
 
-- The brain is built and current as of 2026-06-26. It now covers three pillars:
+- The source ledger was re-verified on 2026-10-28 (see
+  [[research-pack-2026-10-28]]); public view counting changed on 2026-08-24.
+- The brain is built and current as of 2026-10-28. It covers three pillars:
   creator growth and strategy, the developer API, and paid advertising.
 - 67 substantive notes (39 concepts, 6 patterns, 4 antipatterns, 3 flows, 7 API,
   8 ads); sources tracked in `references/source-ledger.json` and dated in
@@ -80,4 +82,5 @@ surfaces.
 
 ## Sources
 
-- See [[research-pack-2026-06-23]] and `references/source-ledger.json`.
+- See [[research-pack-2026-06-23]], [[research-pack-2026-10-28]], and
+  `references/source-ledger.json`.

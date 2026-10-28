@@ -17,7 +17,7 @@ related:
 source_urls:
   - "https://support.google.com/youtube/answer/9314415"
   - "https://support.google.com/youtube/answer/12942217"
-  - "https://www.retentionrabbit.com/blog/2025-youtube-audience-retention-benchmark-report"
+  - "https://web.archive.org/web/20260725211359/https://www.retentionrabbit.com/blog/2025-youtube-audience-retention-benchmark-report"
 ---
 
 # Audience Retention
@@ -92,5 +92,5 @@ or more.
 - Content tab analytics tips, YouTube Help, retrieved 2026-06-23,
   https://support.google.com/youtube/answer/12942217
 - The 2025 State of YouTube Audience Retention, Retention Rabbit, 2025,
-  https://www.retentionrabbit.com/blog/2025-youtube-audience-retention-benchmark-report
+  https://web.archive.org/web/20260725211359/https://www.retentionrabbit.com/blog/2025-youtube-audience-retention-benchmark-report
 - See [[research-pack-2026-06-23]] and [[index]].
